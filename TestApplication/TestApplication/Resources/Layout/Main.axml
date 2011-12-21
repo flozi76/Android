@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+android:id="@+id/widget39"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:background="@drawable/mygradient"
+xmlns:android="http://schemas.android.com/apk/res/android"
+>
+    <Button
+        android:id="@+id/RefreshButton"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="Refresh"
+	android:textSize="20px"
+	android:typeface="serif"
+	android:textColor="#ff00ff00"
+	android:layout_x="10px"
+	android:layout_y="2px"/>
+<TextView
+	android:id="@+id/helloLabel"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="@string/helloLabelText"
+	android:textSize="20px"
+	android:typeface="serif"
+	android:textColor="#ff00ff00"
+	android:layout_x="10px"
+	android:layout_y="30px"
+>
+</TextView>
+	<TextView
+		android:id="@+id/sensor2"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:textSize="20px"
+		android:typeface="serif"
+		android:textColor="#ff00ff00"
+		android:layout_x="10px"
+		android:layout_y="60px"
+>
+	</TextView>
+	<TextView
+		android:id="@+id/sensor3"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:textSize="20px"
+		android:typeface="serif"
+		android:textColor="#ff00ff00"
+		android:layout_x="10px"
+		android:layout_y="90px"
+>
+	</TextView>
+	<TextView
+		android:id="@+id/sensor4"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:textSize="20px"
+		android:typeface="serif"
+		android:textColor="#ff00ff00"
+		android:layout_x="10px"
+		android:layout_y="120px"
+>
+	</TextView>
+	<TextView
+		android:id="@+id/sensor5"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:textSize="20px"
+		android:typeface="serif"
+		android:textColor="#ff00ff00"
+		android:layout_x="10px"
+		android:layout_y="150px"
+>
+	</TextView>    
+	<TextView
+		android:id="@+id/sensor6"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:textSize="20px"
+		android:typeface="serif"
+		android:textColor="#ff00ff00"
+		android:layout_x="10px"
+		android:layout_y="180px"
+>
+	</TextView> 
+	<TextView
+		android:id="@+id/sensor7"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:textSize="20px"
+		android:typeface="serif"
+		android:textColor="#ff00ff00"
+		android:layout_x="10px"
+		android:layout_y="210px"
+>
+	</TextView>    
+	
+
+	<AnalogClock
+	android:id="@+id/Clock"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_x="10px"
+	android:layout_y="250px"
+>
+	</AnalogClock>
+
+</AbsoluteLayout>

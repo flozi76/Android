@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:id="@+id/layout0"
+             android:layout_width="fill_parent"
+             android:layout_height="fill_parent"
+             android:background="@drawable/verticalgradient"
+    >
+    <ScrollView android:layout_width="fill_parent"
+                 android:layout_height="fill_parent"
+                android:layout_y="100px"
+                 xmlns:android="http://schemas.android.com/apk/res/android"
+                 android:id="@layout/main">
+
+        <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                 android:id="@+id/widget39"
+                 android:layout_width="fill_parent"
+                 android:layout_height="fill_parent"
+                 android:stretchColumns="2"
+    >
+            <TableRow>
+                <Button
+                    android:id="@+id/MooveBtn1"
+                    android:layout_width="220px"
+                    android:layout_height="220px"
+                    android:gravity="center"
+                    android:layout_margin="5px"
+                    android:background="@drawable/btnBackground_giraffe"/>
+
+                <Button
+                    android:id="@+id/MooveBtn2"
+                    android:layout_width="220px"
+                    android:layout_height="220px"
+                    android:gravity="center"
+                    android:layout_margin="5px"
+                    android:background="@drawable/btnBackground_zebra"/>
+            </TableRow>
+            <TableRow>
+                <Button
+                    android:id="@+id/MooveBtn3"
+                    android:layout_width="220px"
+                    android:layout_height="220px"
+                    android:gravity="center"
+                    android:layout_margin="5px"
+                    android:background="@drawable/btnBackground_elephant"/>
+
+                <Button
+                    android:id="@+id/MooveBtn4"
+                    android:layout_width="220px"
+                    android:layout_height="220px"
+                    android:gravity="center"
+                    android:layout_margin="5px"
+                    android:background="@drawable/btnBackground_tiger"/>
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+</AbsoluteLayout>
